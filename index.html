@@ -19,7 +19,7 @@
         </hgroup>
 
         <nav>
-            <ul class="tsukimi-rounded-medium">
+            <ul class="tsukimi-rounded-medium" aria-label="navigation">
                 <li><a href="#main-root">Main Root</a></li>
                 <li><a href="#document-metadata">Document Metadata</a></li>
                 <li><a href="#sectioning-root">Sectioning Root</a></li>
@@ -37,15 +37,15 @@
             <table>
                 <thead>
                     <tr>
-                        <td>Name</td>
-                        <td>Tag</td>
-                        <td>Description</td>
+                        <th>Name</th>
+                        <th>Tag</th>
+                        <th>Description</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>HTML</td>
-                        <td>&lt;html&gt;</td>
+                        <td class="tag">&lt;html&gt;</td>
                         <td>Represents the root (top-level element) of an HTML document, so it is also referred to as the <em>root element</em>. <strong>All other elements must be descendants of this element</strong>.
                         </td>
                     </tr>
@@ -58,49 +58,49 @@
         <!-- Document Metadata -->
         <article id="document-metadata">
             <h2 class="tsukimi-rounded-semibold">Document Metadata</h2>
-            <p class="intro-paragraph">Metadata contains information about the page. This includes information about styles, scripts and data to help software (search engines, browsers, etc.) use and render the page. Metadata for styles and scripts may be defined in the page or linked to another file that has the information.</p>
+            <p class="intro-paragraph" aria-label="introductory paragraph">Metadata contains information about the page. This includes information about styles, scripts and data to help software (search engines, browsers, etc.) use and render the page. Metadata for styles and scripts may be defined in the page or linked to another file that has the information.</p>
             <table>
                 <thead>
                     <tr>
-                        <td>Name</td>
-                        <td>Tag</td>
-                        <td>Description</td>
+                        <th>Name</th>
+                        <th>Tag</th>
+                        <th>Description</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>Base</td>
-                        <td>&lt;base&gt;</td>
+                        <td class="tag">&lt;base&gt;</td>
                         <td>Specifies the base URL to use for all relative URLs in a document.<strong>There can be only one such element in a document</strong>.</td>
                     </tr>
 
                     <tr>
                         <td>Head</td>
-                        <td>&lt;head&gt;</td>
+                        <td class="tag">&lt;head&gt;</td>
                         <td>Contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.</td>
                     </tr>
 
                     <tr>
                         <td>Link</td>
-                        <td>&lt;link&gt;</td>
+                        <td class="tag">&lt;link&gt;</td>
                         <td>Specifies relationships between the current document and an external resource. This element is most commonly used to link to CSS but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things.</td>
                     </tr>
 
                     <tr>
                         <td>Meta</td>
-                        <td>&lt;meta&gt;</td>
+                        <td class="tag">&lt;meta&gt;</td>
                         <td>Represents metadata that cannot be represented by other HTML meta-related elements.</td>
                     </tr>
 
                     <tr>
                         <td>Style</td>
-                        <td>&lt;style&gt;</td>
+                        <td class="tag">&lt;style&gt;</td>
                         <td>Contains style information for a document or part of a document. It contains CSS, which is applied to the contents of the document containing this element.</td>
                     </tr>
 
                     <tr>
                         <td>Title</td>
-                        <td>&lt;title&gt;</td>
+                        <td class="tag">&lt;title&gt;</td>
                         <td>Defines the document's title that is shown in a browser's title bar or a page's tab. It only contains text; <strong>HTML tags within the element, if any, are also treated as plain text</strong>.
                         </td>
                     </tr>
@@ -116,15 +116,15 @@
             <table>
                 <thead>
                     <tr>
-                        <td>Name</td>
-                        <td>Element</td>
-                        <td>Description</td>
+                        <th>Name</th>
+                        <th>Tag</th>
+                        <th>Description</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>Body</td>
-                        <td>&lt;body&gt;</td>
+                        <td class="tag">&lt;body&gt;</td>
                         <td>Represents the content of an HTML document. <strong>There can be only one such element in a document</strong>.</td>
                     </tr>
                 </tbody>
@@ -136,79 +136,79 @@
         <!-- Content Sectioning -->
         <article id="content-sectioning">
             <h2 class="tsukimi-rounded-semibold">Content Sectioning</h2>
-            <p class="intro-paragraph">Content sectioning elements allow you to organize the document content into logical pieces. Use the sectioning elements to create a broad outline for your page content, including header and footer navigation, and heading elements to identify sections of content.</p>
+            <p class="intro-paragraph" aria-label="introductory paragraph">Content sectioning elements allow you to organize the document content into logical pieces. Use the sectioning elements to create a broad outline for your page content, including header and footer navigation, and heading elements to identify sections of content.</p>
             <table>
                 <thead>
                     <tr>
-                        <td>Name</td>
-                        <td>Tag</td>
-                        <td>Description</td>
+                        <th>Name</th>
+                        <th>Tag</th>
+                        <th>Description</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>Address</td>
-                        <td>&lt;address&gt;</td>
+                        <td class="tag">&lt;address&gt;</td>
                         <td>Indicates that the enclosed HTML provides contact information for a person or people, or for an organization.</td>
                     </tr>
 
                     <tr>
                         <td>Article</td>
-                        <td>&lt;article&gt;</td>
+                        <td class="tag">&lt;article&gt;</td>
                         <td>Represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication). Examples include a forum post, a magazine or newspaper article, a blog entry, a product card, a user-submitted comment, an interactive widget or gadget, or <strong>any other independent item of content</strong>.</td>
                     </tr>
 
                     <tr>
                         <td>Aside</td>
-                        <td>&lt;aside&gt;</td>
+                        <td class="tag">&lt;aside&gt;</td>
                         <td>Represents a portion of a document whose content is only indirectly related to the document's main content. <strong>Asides are frequently presented as sidebars or call-out boxes</strong>.</td>
                     </tr>
 
                     <tr>
                         <td>Footer</td>
-                        <td>&lt;footer&gt;</td>
+                        <td class="tag">&lt;footer&gt;</td>
                         <td>Typically contains information about the author of the section, copyright data, or links to related documents. Goes at the bottom of the page.</td>
                     </tr>
 
                     <tr>
                         <td>Header</td>
-                        <td>&lt;header&gt;</td>
+                        <td class="tag">&lt;header&gt;</td>
                         <td>Represents introductory content, typically a <strong>group of introductory or navigational aids</strong>. It may <strong>contain some heading elements but also a logo, a search form, an author name, and other elements</strong>.</td>
                     </tr>
 
                     <tr>
                         <td>H1-H6</td>
-                        <td>&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;</td>
+                        <td class="tag">&lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;</td>
                         <td>Represent six levels of section headings.</td>
                     </tr>
 
                     <tr>
                         <td>Header Group</td>
-                        <td>&lt;hgroup&gt;</td>
+                        <td class="tag">&lt;hgroup&gt;</td>
                         <td>A heading grouped with any secondary content, such as subheadings, an alternative title, or a tagline.</td>
                     </tr>
 
                     <tr>
                         <td>Main</td>
-                        <td>&lt;main&gt;</td>
+                        <td class="tag">&lt;main&gt;</td>
                         <td>Represents the dominant content of the body of a document. The main content area consists of <strong>content that is directly related to or expands upon the central topic of a document</strong>, or the central functionality of an application.</td>
                     </tr>
 
                     <tr>
                         <td>Navigation</td>
-                        <td>&lt;nav&gt;</td>
+                        <td class="tag">&lt;nav&gt;</td>
                         <td>Section of a page whose purpose is to provide navigation links, <em>either within the current document or to other documents</em>. Common examples of navigation sections are menus, tables of contents, and indexes.</td>
                     </tr>
 
                     <tr>
                         <td>Section</td>
-                        <td>&lt;section&gt;</td>
+                        <td class="tag">&lt;section&gt;</td>
                         <td>Generic standalone section of a document, which doesn't have a more specific semantic element to represent it. <strong>Sections should always have a heading</strong>, with very few exceptions.</td>
                     </tr>
 
                     <tr>
                         <td>Search</td>
-                        <td>&lt;search&gt;</td>
+                        <td class="tag">&lt;search&gt;</td>
                         <td>A part that contains a set of form controls or other content related to performing a search or filtering operation.</td>
                     </tr>
                 </tbody>
