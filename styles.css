@@ -91,3 +91,42 @@ h2 {
     border: 1px dotted rgb(223, 220, 220);
     padding: 10px 20px;
 }
+
+/* Tables */
+table {
+    margin: 40px auto 60px;
+    width: 60%;
+    border: 2px solid gray;
+}
+
+thead {
+    background-color: rgb(223, 220, 220);
+    color: rgb(32, 32, 32);
+    text-align: left;
+}
+
+thead tr td{
+    font-weight: bold;
+    border: 2px solid gray;
+    padding: 6px 10px;
+}
+
+tbody {
+    background-color: rgb(32, 32, 32);
+    color: rgb(223, 220, 220);
+    text-align: left;
+}
+
+tbody tr td{
+    font-weight: normal;
+    border: 2px solid gray;
+    padding: 10px 10px;
+}
+
+/* Horizontal Rule */
+hr {
+    width: 80%;
+    text-align: center;
+    border-style: dotted;
+    opacity: 0.1;
+}
