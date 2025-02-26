@@ -130,3 +130,22 @@ hr {
     border-style: dotted;
     opacity: 0.1;
 }
+
+/* Footer */
+footer {
+    background-color: rgb(223, 220, 220);
+    color: rgb(32, 32, 32);
+    position: relative;
+    padding: 10px 20px;
+}
+
+footer p {
+    display: inline-block;
+}
+
+footer address {
+    display: inline-block;
+    font-style: italic;
+    position: relative;
+    left: 1300px;
+}
