@@ -73,3 +73,21 @@ nav ul li a:hover {
     color: rgb(146, 229, 255);
     background-color: rgb(22, 22, 22);
 }
+
+/* Articles */
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 40px auto;
+}
+
+.intro-paragraph {
+    font-size: 18px;
+    width: 38%;
+    margin: 0 auto;
+    text-align: start;
+    line-height: 1.2;
+    border: 1px dotted rgb(223, 220, 220);
+    padding: 10px 20px;
+}
