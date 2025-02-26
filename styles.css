@@ -1,0 +1,51 @@
+/* Font Styling */
+.tsukimi-rounded-light {
+    font-family: "Tsukimi Rounded", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .tsukimi-rounded-regular {
+    font-family: "Tsukimi Rounded", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .tsukimi-rounded-medium {
+    font-family: "Tsukimi Rounded", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .tsukimi-rounded-semibold {
+    font-family: "Tsukimi Rounded", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .tsukimi-rounded-bold {
+    font-family: "Tsukimi Rounded", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+/* Body */
+body {
+    background-color: rgb(32, 32, 32);
+    color: rgb(223, 220, 220);
+}
+
+/* Header Content */
+hgroup {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 4px;
+}
+
+hgroup p {
+    position: relative;
+    margin: 10px auto;
+}
